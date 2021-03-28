@@ -15,25 +15,31 @@
 		<hr />
 		
 		<h2>Give Us Your Money</h2>
-		<dl>
-			<dt>Name</dt>
-			<dd>
-				???
-			</dd>
-			
-			<dt>Section</dt>
-			<dd>
-				???
-			</dd>
-			
-			<dt>Credit Card</dt>
-			<dd>
-				???
-			</dd>
-		</dl>
+		<form action="submit.php" method="POST">
+			<dl>
+				<dt>Name</dt>
+				<dd>
+					<input type="text" name="name">
+				</dd>
+				
+				<dt>Section</dt>
+				<dd>
+					<input type="text" name="section">
+				</dd>
+				
+				<dt>Credit Card</dt>
+				<dd>
+					<input type="text" name="creditcard">
+					<input type="radio" name="card" value="visa">Visa
+					<input type="radio" name="card" value="mastercard">Mastercard
+				</dd>
+
+				<dt></dt>
+				<dd>
+					<input type="submit" value="I am a giant sucker">
+				</dd>
+			</dl>
+		</form>
 		
-		<div>
-			I am a giant sucker.
-		</div>
 	</body>
 </html>
